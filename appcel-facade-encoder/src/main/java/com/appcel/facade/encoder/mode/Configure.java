@@ -4,7 +4,10 @@ import com.appcel.kernel.mybatis.model.BaseModel;
 
 public class Configure extends BaseModel {
 
-	private static final long serialVersionUID = 1L;
+	/** 
+	* @Fields serialVersionUID
+	*/ 
+	private static final long serialVersionUID = -5330891807290465794L;
 	private String name;
 	private String value;
 	private String remark;
