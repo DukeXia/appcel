@@ -12,6 +12,7 @@
   	<commons-io-version>2.4</commons-io-version>
   	 <commons-lang-version>2.6</commons-lang-version>
   	 <junit-version>3.8.1</junit-version>
+  	 <skipTests>true</skipTests>
   </properties>
   <dependencies>
        <!--  <dependency>
