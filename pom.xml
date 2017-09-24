@@ -11,9 +11,9 @@
   <description>appcel-video-master</description>
 
   <modules>
+  
 	<module>appcel-master</module>
     <module>appcel-common</module>
-	
 	<module>appcel-config</module>
     <module>appcel-kernel-mybatis</module>
 	<module>appcel-facade-encoder</module>
