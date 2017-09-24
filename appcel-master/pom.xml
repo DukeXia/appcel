@@ -8,7 +8,7 @@
   <name>appcel-master Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
-  	<appcel-vesion>1.0.0-SNAPSHOT</appcel-vesion>
+  	<appcel-version>1.0.0-SNAPSHOT</appcel-version>
   	<commons-io-version>2.4</commons-io-version>
   	 <commons-lang-version>2.6</commons-lang-version>
   	 <junit-version>3.8.1</junit-version>

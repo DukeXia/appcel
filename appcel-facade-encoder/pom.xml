@@ -28,7 +28,7 @@
 		<dependency>
 			<groupId>com.appcel</groupId>
 			<artifactId>appcel-kernel-mybatis</artifactId>
-			<version>${appcel-vesion}</version>
+			<version>${appcel-version}</version>
 		</dependency>
 
 		<dependency>
