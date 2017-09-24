@@ -1,7 +1,14 @@
 package com.appcel.facade.encoder.mode;
 
 import com.appcel.kernel.mybatis.model.BaseModel;
-
+/**
+ * 
+* @ClassName: Configure 
+* @Description: TODO
+* @author duke xia
+* @date 2017年9月24日 下午9:31:27 
+*
+ */
 public class Configure extends BaseModel {
 
 	/** 
