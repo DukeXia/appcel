@@ -3,15 +3,37 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.appcel</groupId>
   <artifactId>appcel-master</artifactId>
-  <packaging>war</packaging>
+  <packaging>pom</packaging>
   <version>1.0.0-SNAPSHOT</version>
   <name>appcel-master Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <properties>
+  	<appcel-vesion>1.0.0-SNAPSHOT</appcel-vesion>
+  	<commons-io-version>2.4</commons-io-version>
+  	 <commons-lang-version>2.6</commons-lang-version>
+  	 <junit-version>3.8.1</junit-version>
+  </properties>
   <dependencies>
+       <!--  <dependency>
+			<groupId>com.pointdew</groupId>
+			<artifactId>pointdew-common</artifactId>
+		</dependency> -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons-io-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>${commons-lang-version}</version>
+		</dependency>
+  
+  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>${junit-version}</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
