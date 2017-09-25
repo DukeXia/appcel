@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>appcel-facade-encoder</artifactId>
-	<version>${appcel-facade-encoder.version}</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>appcel-facade-encoder</name>
@@ -21,28 +21,20 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.pointdew</groupId>
 			<artifactId>pointdew-common</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>commons-lang</groupId>
-			<artifactId>commons-lang</artifactId>
-		</dependency>
-
+		</dependency> -->
 		<dependency>
 			<groupId>com.appcel</groupId>
 			<artifactId>appcel-kernel-mybatis</artifactId>
+			<version>${appcel-version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<scope>test</scope>
+			<version>${junit-version}</version>
 		</dependency>
 
 	</dependencies>

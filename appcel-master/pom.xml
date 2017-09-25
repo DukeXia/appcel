@@ -96,7 +96,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
-    <finalName>appcel-master</finalName>
-  </build>
 </project>

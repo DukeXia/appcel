@@ -54,7 +54,7 @@
 			</resource>
 			<resource>
 			<directory>lib</directory>
-			<targetPath>WEB-INF/lib</targetPath>
+			<targetPath>${project.build.directory}/lib</targetPath>
 			<includes>
 				<include>**/*.jar</include>
 			</includes>

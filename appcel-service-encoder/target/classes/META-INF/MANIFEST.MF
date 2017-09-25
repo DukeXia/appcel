@@ -1,6 +1,36 @@
 Manifest-Version: 1.0
 Built-By: xiadk
-Class-Path: . lib/appcel-common-1.0.0-SNAPSHOT.jar
+Class-Path: . lib/appcel-common-1.0.0-SNAPSHOT.jar lib/appcel-kernel-m
+ ybatis-1.0.0-SNAPSHOT.jar lib/appcel-config-1.0.0-SNAPSHOT.jar lib/ap
+ pcel-facade-encoder-1.0.0-SNAPSHOT.jar lib/mysql-connector-java-5.1.3
+ 8.jar lib/mybatis-3.4.1.jar lib/mybatis-spring-1.3.0.jar lib/antlr-2.
+ 7.7.jar lib/aopalliance-1.0.jar lib/aspectjweaver-1.8.6.jar lib/aspec
+ tjrt-1.8.6.jar lib/cglib-2.2.jar lib/asm-3.1.jar lib/json-lib-2.4-jdk
+ 15.jar lib/ognl-3.0.8.jar lib/javassist-3.11.0.GA.jar lib/oro-2.0.8.j
+ ar lib/commons-beanutils-1.9.2.jar lib/commons-codec-1.10.jar lib/com
+ mons-collections-3.2.1.jar lib/commons-digester-2.0.jar lib/commons-f
+ ileupload-1.3.2.jar lib/commons-io-2.4.jar lib/commons-lang3-3.4.jar 
+ lib/commons-logging-1.2.jar lib/commons-validator-1.6.jar lib/dom4j-1
+ .6.1.jar lib/xml-apis-1.0.b2.jar lib/ezmorph-1.0.6.jar lib/javassist-
+ 3.20.0-GA.jar lib/log4j-1.2.17.jar lib/slf4j-api-1.7.19.jar lib/slf4j
+ -log4j12-1.7.19.jar lib/fastjson-1.2.28.jar lib/activemq-all-5.11.2.j
+ ar lib/activemq-pool-5.11.2.jar lib/activemq-jms-pool-5.11.2.jar lib/
+ geronimo-jms_1.1_spec-1.1.1.jar lib/activemq-client-5.11.2.jar lib/ha
+ wtbuf-1.11.jar lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar lib/ge
+ ronimo-jta_1.0.1B_spec-1.0.1.jar lib/commons-pool-1.6.jar lib/druid-0
+ .2.9.jar lib/dubbo-2.8.4.jar lib/spring-expression-3.2.9.RELEASE.jar 
+ lib/netty-3.7.0.Final.jar lib/javax.servlet-api-3.1.0.jar lib/spring-
+ web-3.2.9.RELEASE.jar lib/httpclient-4.2.1.jar lib/httpcore-4.2.1.jar
+  lib/curator-framework-2.5.0.jar lib/curator-client-2.5.0.jar lib/gua
+ va-16.0.1.jar lib/zookeeper-3.4.8.jar lib/jline-0.9.94.jar lib/zkclie
+ nt-0.7.jar lib/quartz-2.2.2.jar lib/c3p0-0.9.1.1.jar lib/quartz-jobs-
+ 2.2.2.jar lib/commons-lang-2.6.jar lib/spring-aop-4.2.5.RELEASE.jar l
+ ib/spring-aspects-4.2.5.RELEASE.jar lib/spring-beans-4.2.5.RELEASE.ja
+ r lib/spring-context-4.2.5.RELEASE.jar lib/spring-context-support-4.2
+ .5.RELEASE.jar lib/spring-core-4.2.5.RELEASE.jar lib/spring-jms-4.2.5
+ .RELEASE.jar lib/spring-messaging-4.2.5.RELEASE.jar lib/spring-orm-4.
+ 2.5.RELEASE.jar lib/spring-jdbc-4.2.5.RELEASE.jar lib/spring-oxm-4.2.
+ 5.RELEASE.jar lib/spring-tx-4.2.5.RELEASE.jar
 Build-Jdk: 1.8.0_112
 Created-By: Maven Integration for Eclipse
 Main-Class: com.alibaba.dubbo.container.Main

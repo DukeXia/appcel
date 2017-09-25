@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>appcel-facade-encoder</artifactId>
-	<version>${appcel-vesion}</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>appcel-facade-encoder</name>
