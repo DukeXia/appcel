@@ -6,7 +6,10 @@
 package com.appcel.core.encoder.dao.impl;
 
 import java.util.List;
+import java.util.Map;
 
+import org.apache.ibatis.session.SqlSession;
+import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.stereotype.Repository;
 
 import com.appcel.core.encoder.dao.ConfigureDao;
@@ -31,20 +34,22 @@ public class ConfigureDaoImpl extends BaseDaoImpl<Configure> implements Configur
 	}
 
 	public Configure findConfigureByKey(String key) {
-		Configure encoderInfo = findByKey(key);
+		Configure encoderInfo = findConfigureByKey(key);
 		return encoderInfo;
 	}
 
-	public List<Configure> listAllConfigure() {
-		return super.listAll();
+	public List<Configure> listAllConfigure(Configure configure) {
+		return super.queryList(configure );
 	}
 
 	public boolean deleteConfigureByKey(String key) {
-		Configure configure = findByKey(key);
+		Configure configure = findConfigureByKey(key);
 		if (configure != null) {
 			deleteByKey(configure.getKey());
 			return true;
 		}
 		return false;
 	}
+
+	
 }
